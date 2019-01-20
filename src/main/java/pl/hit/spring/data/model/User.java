@@ -9,7 +9,7 @@ public class User {
     private int phone;
     private String email;
     private String[] socialMedia;
-    private String Addres;
+    private Address Address;
     private Education[] education;
     private Skill[] skills;
     private String about;
