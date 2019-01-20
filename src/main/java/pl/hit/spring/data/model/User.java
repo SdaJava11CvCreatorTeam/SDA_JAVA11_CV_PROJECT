@@ -1,19 +1,31 @@
 package pl.hit.spring.data.model;
 
+import java.util.Date;
+
 public class User {
 
     private long id;
     private String login;
-    private String name;
-    private String surname;
-    private int phone;
-    private String email;
-    private String[] socialMedia;
-    private Address Address;
-    private Education[] education;
-    private Skill[] skills;
-    private String about;
-    private Experience[] experience;
-    private Language[] languages;
+
+    public User(long id, String login) {
+        this.id = id;
+        this.login = login;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
 
 }

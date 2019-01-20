@@ -4,6 +4,7 @@ public class Skill {
 
     //  skillName skillLevel                            //   Java [X][X][ ][ ][ ]
 
+    private long id;
     private String skillName;
     private int skillLevel;
 
