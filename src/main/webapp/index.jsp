@@ -11,7 +11,12 @@
     <title>CV Generator</title>
 </head>
 <body>
+<nav class="navbar navbar-dark bg-primary">
+    <!-- Navbar content -->
+</nav>
 <h1>Welcome to our CV Generator</h1>
+
+<button type="button" class="btn btn-primary btn-lg btn-block">go to CV creator form</button>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
