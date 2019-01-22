@@ -6,6 +6,7 @@ public class Education {
     //  direction                           // Informatyka
     // startYear - endYear                  // 2015 - Present
 
+    private long id;
     private String college;
     private String direction;
     private String startYear;
