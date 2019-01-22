@@ -4,6 +4,7 @@ public class Language {
 
     //  languageName languageLevel                          English B2
 
+    private long id;
     private String languageName;
     private String languageLevel;
 

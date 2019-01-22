@@ -9,6 +9,7 @@ public class Experience {
     //                                                             - Pomoc w rozwiązywanie problemów,
     //                                                             - Dołowanie podopiecznych.
 
+    private long id;
     private String startYear;
     private String endYear;
     private String company;
