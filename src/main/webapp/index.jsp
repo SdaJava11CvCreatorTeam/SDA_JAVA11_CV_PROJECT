@@ -1,4 +1,6 @@
-<!doctype html>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%><!doctype html>
 <html lang="pl">
 <head>
     <!-- Required meta tags -->
@@ -15,9 +17,6 @@
     <!-- Navbar content -->
 </nav>
 <h1>Welcome to our CV Generator</h1>
-
-<button type="button" class="btn btn-primary btn-lg btn-block">go to CV creator form</button>
-
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
